@@ -6,9 +6,17 @@ import {NavigationContainer} from '@react-navigation/native';
 import Home from './screens/Home';
 import info from './screens/info';
 
+
 export default function App() {
 
   const MainNavigator = createStackNavigator();
+  
+  
+  
+
+  useEffect (()=>{
+    getWeather();
+  }, []);
 
   return (
     <View style={{flex:1}}>

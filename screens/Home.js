@@ -1,17 +1,18 @@
 import React from "react";
 import { View, Text, Button, TouchableOpacity, Image,} from "react-native";
-import { useState } from "react";
-import { useEffect } from "react";
 import cloudy from '../assets/cloudy.png';
-import { useFonts } from 'expo-font';
-import AppLoading from 'expo-app-loading';
-import info from '../screens/info';
+
 
 
 
 export default function Home({navigation}){
+
+    
+
+
     
     return(
+
 
         
         <View style={{ flex: 1, 
@@ -49,13 +50,10 @@ export default function Home({navigation}){
 
         </View>
 
-    );
-
-
-   
-        
-            
-        
+    );   
     
         
 }
+
+
+
