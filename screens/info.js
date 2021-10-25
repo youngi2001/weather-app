@@ -58,7 +58,7 @@ export default function info({navigation}){
                         marginHorizontal:10,
                         backgroundColor:"#151859",
                         padding:20,
-                        height:230 ,
+                        height:220 ,
                         
                                     
 
